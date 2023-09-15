@@ -29,7 +29,7 @@
     "doctrine/data-fixtures": "^1.4.4",
     "guzzlehttp/guzzle": "^6.5 || ^7.4",
     "knpuniversity/oauth2-client-bundle": "^2.0",
-    "stevenmaguire/oauth2-keycloak": "^2.0"
+    "thenetworg/oauth2-azure": "^2.0"
   },
   "conflict": {
     "contao/core": "*",
