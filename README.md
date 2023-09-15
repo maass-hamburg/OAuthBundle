@@ -26,7 +26,7 @@ parameters:
   con4gis.oauth.oidc.client_id: "### The client id for the openid connect server ###"
   con4gis.oauth.oidc.client_secret: "### The client secret for the openid connect server ###"
   con4gis.oauth.oidc.auth_server_url: "### The authentication url for the openid connect server ###"
-  con4gis.oauth.oidc.realm: "### The realm for the openid connect server ####"
+
   # Uncomment the following option if you want to access the entire frontend via an upstream login
   #con4gis.oauth.oidc.secured: "true"
 ```
