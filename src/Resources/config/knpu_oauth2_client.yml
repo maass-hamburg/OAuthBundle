@@ -11,7 +11,8 @@ knpu_oauth2_client:
       redirect_route: connect_oidc_check
       redirect_params: { }
       # Oidc server URL
-      tenant: '%con4gis.oauth.oidc.auth_server_url%'
+      tenant: '%con4gis.oauth.oidc.realm%'
+      url_login: '%con4gis.oauth.oidc.auth_server_url%'
 
       path_authorize: '/oauth2/v2.0/authorize'
       path_token: '/oauth2/v2.0/token'
