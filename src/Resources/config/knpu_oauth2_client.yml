@@ -16,7 +16,7 @@ knpu_oauth2_client:
 
       path_authorize: '/oauth2/v2.0/authorize'
       path_token: '/oauth2/v2.0/token'
-      scope: ['openid', 'profile', 'email', 'idtoken']
+      #scope: ['idtoken']
 
       # Optional: Encryption algorith, i.e. RS256
       # encryption_algorithm: null
